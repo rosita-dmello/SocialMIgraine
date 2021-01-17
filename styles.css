@@ -1,0 +1,136 @@
+/* heading */
+h1 {
+  font-family: 'Barking Cat DEMO';
+  src: url('Font/Barking Cat DEMO.otf') format('.otf');
+  color: #fff;
+  text-align: center;
+  font-size: 500%;
+}
+.heading-img {
+  width: 50%;
+}
+.daisy {
+  height: 5%;
+  width: 5%;
+}
+
+.header {
+  padding: 5% 5%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+/* body */
+body {
+  /* background-color: #5b537f; */
+  background-image: url('images/bg 2.png');
+  background-size: cover;
+}
+
+/* main section */
+.main-rect {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* buttons */
+.button {
+  border-radius: 0;
+  border: solid 1px #fff;
+  color: #fff;
+  padding: 5%;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 5%;
+}
+
+.button:hover {
+  transition-delay: 0.07s;
+  transform: scale(1.1);
+  background-color: #fff;
+  color: #5b537f;
+  border: 1px #000;
+  text-decoration: none;
+}
+
+/* links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* icons in buttons */
+.icon1 {
+  display: block;
+  height: auto;
+  width: 3.5rem;
+  margin: auto auto 5%;
+  align: center;
+}
+
+/* footer */
+ul {
+  list-style: none;
+}
+
+footer {
+  padding: 5%;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+}
+
+/* social icons */
+.s-icon {
+  display: inline-block;
+  color: #fff;
+  font-size: 200%;
+  margin-right: 25px;
+}
+
+.s-icon:hover,
+.s-icon:active {
+  color: #ededed;
+}
+
+/* queries */
+@media (max-width: 1250px) {
+
+}
+
+@media (max-width: 1028px) {
+/
+
+}
+
+@media (max-width: 800px) {
+
+  .heading-img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .icon1 {
+    display: inline-block;
+    margin: auto 3% auto auto;
+    height: auto;
+    width: 3rem;
+  }
+
+  .button {
+    padding: 2%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+
+}
